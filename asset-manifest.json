@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/TopMovieSeries/static/css/main.17b26c62.chunk.css",
+    "main.js": "/TopMovieSeries/static/js/main.983d453f.chunk.js",
+    "main.js.map": "/TopMovieSeries/static/js/main.983d453f.chunk.js.map",
+    "runtime-main.js": "/TopMovieSeries/static/js/runtime-main.8f3a7630.js",
+    "runtime-main.js.map": "/TopMovieSeries/static/js/runtime-main.8f3a7630.js.map",
+    "static/js/2.b8112745.chunk.js": "/TopMovieSeries/static/js/2.b8112745.chunk.js",
+    "static/js/2.b8112745.chunk.js.map": "/TopMovieSeries/static/js/2.b8112745.chunk.js.map",
+    "index.html": "/TopMovieSeries/index.html",
+    "precache-manifest.0d477fcb1dc206ab1e315b7bd9d1770f.js": "/TopMovieSeries/precache-manifest.0d477fcb1dc206ab1e315b7bd9d1770f.js",
+    "service-worker.js": "/TopMovieSeries/service-worker.js",
+    "static/css/main.17b26c62.chunk.css.map": "/TopMovieSeries/static/css/main.17b26c62.chunk.css.map",
+    "static/js/2.b8112745.chunk.js.LICENSE.txt": "/TopMovieSeries/static/js/2.b8112745.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/TopMovieSeries/static/media/background.4c2de83f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f3a7630.js",
+    "static/js/2.b8112745.chunk.js",
+    "static/css/main.17b26c62.chunk.css",
+    "static/js/main.983d453f.chunk.js"
+  ]
+}
