@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url('./background.jpg');
+    background-attachment: fixed;
+}
+
+.heading_style {
+    padding: 30px 0;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+}
+.card {
+    /* margin: 25px; */
+    margin: 3.5%;
+    transition: all 0.65 cubic-bezier(0.375, 0.99, 0, 1);
+    background-color: #fff;
+    width: 25.25%;
+    border-radius: 12px;
+    /* box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1); */
+    float: left;
+}
+
+.card:hover{
+    /* box-shadow: 0px 30px 18px - 8px rgba(0, 0, 0, 0.1); */
+    transform: scale(1.09, 1.09);
+}
+
+.card_img {
+    width: 100%;
+    height: 235px;
+    border-radius: 12px;
+}
+.card_info {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+    color:#fff;
+}
+
+.card_category {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #e6dcdc;
+    background-color:#fff;
+}
+
+.card_title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+button {
+    padding: 5px 8px;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #ffffff;
+    border: 1px solid rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .card {
+    float: none;
+    margin: 5%;
+    width: auto;
+    }
+}
