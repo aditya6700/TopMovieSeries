@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Tiles(props){
+const Tiles = (props) => {
     return (
         <>
             <div className="cards">
@@ -19,5 +19,6 @@ function Tiles(props){
         </>
     );
 }
+
 
 export default Tiles;
